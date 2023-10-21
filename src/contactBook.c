@@ -14,8 +14,6 @@ int main() {
     printMenu();
     getAction(&run, contactList);
   }
-  
-
 
   return 0;
 }
