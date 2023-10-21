@@ -1,5 +1,4 @@
 #include "contactStruct.h"
-#include "initializeStruct.h"
 
 extern void initializeStruct(struct contact contactList[200]) {
   for (int index = 0; index < 200; index++)

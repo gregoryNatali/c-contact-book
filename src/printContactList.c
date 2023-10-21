@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "contactStruct.h"
-#include "printContactList.h"
 
 extern void printContactList(struct contact contactList[200]) {
     printf("\n");
@@ -14,7 +13,7 @@ extern void printContactList(struct contact contactList[200]) {
     printf("id: %d\n", contactList[i].id);
     printf("número: %d\n", contactList[i].phoneNumber);
     printf("nome: %s\n", contactList[i].name);
-    
+
     if(contactList[i].contactType == 1) {
       printf("Pessoal\n");
     } else {
