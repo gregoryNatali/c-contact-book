@@ -1,7 +1,7 @@
 $(CC) = gcc
 
 build: contactBook.o createContact.o getAction.o initializeStruct.o printContactList.o printMenu.o
-	$(CC) contactBook.o createContact.o getAction.o initializeStruct.o printContactList.o printMenu.o -o build/build
+	$(CC) contactBook.o createContact.o getAction.o initializeStruct.o printContactList.o printMenu.o -o build
 
 contactBook.o: src/contactBook.c src/contactStruct.h src/initializeStruct.h src/getAction.h src/printMenu.h
 	$(CC) -c src/contactBook.c
