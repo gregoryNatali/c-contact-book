@@ -18,3 +18,13 @@ To clean the .o files run
 ```bash 
   make clean
 ```
+
+
+## Features
+
+- [x]  Menu
+- [X]  List All Contacts
+- [ ]  Create Contact
+- [ ]  Update Contact
+- [ ]  Delete Contact
+- [ ]  Find one Contact
