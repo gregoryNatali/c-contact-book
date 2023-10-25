@@ -11,7 +11,7 @@ extern void printContactList(struct contact contactList[200]) {
   {
     if(contactList[i].id == 0) continue;
     printf("id: %d\n", contactList[i].id);
-    printf("número: %d\n", contactList[i].phoneNumber);
+    printf("número: %s\n", contactList[i].phoneNumber);
     printf("nome: %s\n", contactList[i].name);
 
     if(contactList[i].contactType == 1) {

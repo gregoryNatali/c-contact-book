@@ -3,9 +3,9 @@
 
 struct  contact {
     int id;
-    int phoneNumber;
+    char phoneNumber[12];
     int contactType;
-    char* name;
+    char name[100];
   };
 
 #endif
