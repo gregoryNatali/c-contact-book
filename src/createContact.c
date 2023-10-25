@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include "include/contactStruct.h"
-extern void createContact(struct contact contactList[200]) {
-  struct contact newContact;
+extern void createContact(struct Contact contactList[200]) {
+  struct Contact newContact;
 
   char newName[100];
   char newNumber[12];

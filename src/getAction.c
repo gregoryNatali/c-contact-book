@@ -6,7 +6,7 @@
 #include "include/updateContact.h"
 #include "include/deleteContact.h"
 
-extern void getAction(int *run, struct contact contactList[200]) {
+extern void getAction(int *run, struct Contact contactList[200]) {
   int action;
   scanf("%d", &action);
 

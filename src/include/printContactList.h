@@ -1,3 +1,3 @@
 #include "contactStruct.h"
 
-extern void printContactList(struct contact contactList[200]);
+extern void printContactList(struct Contact contactList[200]);

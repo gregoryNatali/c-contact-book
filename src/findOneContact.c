@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "include/contactStruct.h"
 
-extern void findOneContact(struct contact contactList[200]) {
+extern void findOneContact(struct Contact contactList[200]) {
     int index;
     printf("Informe o identificador do usuário: ");
     scanf("%d", &index);

@@ -4,7 +4,7 @@
 #include "include/printMenu.h"
 
 int main() {
-  struct contact contactList[200]; 
+  struct Contact contactList[200]; 
   initializeStruct(contactList);
 
   int run = 1, action = 0; 

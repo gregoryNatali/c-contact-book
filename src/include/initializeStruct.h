@@ -1,3 +1,3 @@
 #include "contactStruct.h"
 
-extern void initializeStruct(struct contact contactList[200]);
+extern void initializeStruct(struct Contact contactList[200]);

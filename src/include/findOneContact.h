@@ -1,1 +1,1 @@
-extern void findOneContact(struct contact contactList[200]);
+extern void findOneContact(struct Contact contactList[200]);

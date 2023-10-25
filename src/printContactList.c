@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include "include/contactStruct.h"
 
-extern void printContactList(struct contact contactList[200]) {
+extern void printContactList(struct Contact contactList[200]) {
     printf("\n");
     printf("\n");
     printf("------------------------------------\n");
     printf("Agenda de Contatos\n");
     printf("------------------------------------\n");
-    for (int i = 0; i < 200; i++)
+    for (int index = 0; index < 200; index++)
   {
-    if(contactList[i].id == 0) continue;
-    printf("id: %d\n", contactList[i].id);
-    printf("número: %s\n", contactList[i].phoneNumber);
-    printf("nome: %s\n", contactList[i].name);
+    if(contactList[index].id == 0) continue;
+    printf("id: %d\n", contactList[index].id);
+    printf("número: %s\n", contactList[index].phoneNumber);
+    printf("nome: %s\n", contactList[index].name);
 
-    if(contactList[i].contactType == 1) {
+    if(contactList[index].contactType == 1) {
       printf("Pessoal\n");
     } else {
       printf("Trabalho\n");

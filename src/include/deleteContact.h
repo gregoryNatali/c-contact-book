@@ -1,3 +1,3 @@
 #include "contactStruct.h"
 
-extern void deleteContact(struct contact contactList[200]) ;
+extern void deleteContact(struct Contact contactList[200]) ;

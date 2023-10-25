@@ -2,7 +2,7 @@
 #include <string.h>
 #include "include/contactStruct.h"
 
-extern void updateContact(struct contact contactList[200]) {
+extern void updateContact(struct Contact contactList[200]) {
     int index, option, run = 1;
     printf("Informe o identificador do usuário: ");
     scanf("%d", &index);
