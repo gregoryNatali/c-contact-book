@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "include/contactStruct.h"
-void createContact(struct contact contactList[200]) {
+extern void createContact(struct contact contactList[200]) {
   struct contact newContact;
 
   char newName[100];
