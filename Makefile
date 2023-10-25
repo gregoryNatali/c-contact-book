@@ -1,7 +1,7 @@
 $(CC) = gcc
 
-build: contactBook.o createContact.o getAction.o initializeStruct.o printContactList.o printMenu.o deleteContact.o
-	$(CC) contactBook.o createContact.o getAction.o initializeStruct.o printContactList.o printMenu.o deleteContact.o -o build
+build: contactBook.o createContact.o getAction.o initializeStruct.o printContactList.o printMenu.o deleteContact.o findOneContact.o
+	$(CC) contactBook.o createContact.o getAction.o initializeStruct.o printContactList.o printMenu.o deleteContact.o findOneContact.o -o build
 
 contactBook.o: src/contactBook.c src/include/contactStruct.h src/include/initializeStruct.h src/include/getAction.h src/include/printMenu.h
 	$(CC) -c src/contactBook.c
@@ -11,6 +11,9 @@ createContact.o: src/createContact.c src/include/contactStruct.h
 
 deleteContact.o: src/deleteContact.c src/include/contactStruct.h
 	$(CC) -c src/deleteContact.c
+
+findOneContact.o: src/findOneContact.c src/include/findOneContact.h
+	$(CC) -c src/findOneContact.c
 
 getAction.o: src/getAction.c src/include/contactStruct.h src/include/printContactList.h src/include/createContact.h src/include/deleteContact.h
 	$(CC) -c src/getAction.c

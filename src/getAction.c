@@ -3,6 +3,7 @@
 #include "include/printContactList.h"
 #include "include/createContact.h"
 #include "include/deleteContact.h"
+#include "include/findOneContact.h"
 
 extern void getAction(int *run, struct contact contactList[200]) {
   int action;
@@ -25,6 +26,7 @@ extern void getAction(int *run, struct contact contactList[200]) {
       break;
 
     case 5: 
+      findOneContact(contactList);
       break;
 
     case 0:
