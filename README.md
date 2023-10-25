@@ -12,9 +12,9 @@ The project features a complete CRUD and saves the data in an array.
 - [x]  Menu
 - [X]  List All Contacts
 - [X]  Create Contact
-- [ ]  Update Contact
+- [X]  Update Contact
 - [X]  Delete Contact
-- [ ]  Find one Contact
+- [X]  Find one Contact
 
 
 
