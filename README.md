@@ -24,7 +24,7 @@ To clean the .o files run
 
 - [x]  Menu
 - [X]  List All Contacts
-- [ ]  Create Contact
+- [X]  Create Contact
 - [ ]  Update Contact
 - [ ]  Delete Contact
 - [ ]  Find one Contact
