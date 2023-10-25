@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "contactStruct.h"
+#include "include/contactStruct.h"
 void createContact(struct contact contactList[200]) {
   struct contact newContact;
 
