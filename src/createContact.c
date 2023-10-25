@@ -18,7 +18,6 @@ void createContact(struct contact contactList[200]) {
   printf("2 para trabalho\n");
   scanf("%d", &newContact.contactType);
   
-
   for (int index = 0; index < 200; index++)
   {
     if(contactList[index].id == 0) {
@@ -29,9 +28,4 @@ void createContact(struct contact contactList[200]) {
     break;
     }
   }
-
-  // printf("%s\n", newContact.name);
-  // printf("%d\n", newContact.phoneNumber);
-  // printf("%d\n", newContact.contactType);
-
 }
