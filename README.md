@@ -13,7 +13,7 @@ The project features a complete CRUD and saves the data in an array.
 - [X]  List All Contacts
 - [X]  Create Contact
 - [ ]  Update Contact
-- [ ]  Delete Contact
+- [X]  Delete Contact
 - [ ]  Find one Contact
 
 
