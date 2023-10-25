@@ -1,7 +1,7 @@
-#include "contactStruct.h"
-#include "initializeStruct.h"
-#include "getAction.h"
-#include "printMenu.h"
+#include "include/contactStruct.h"
+#include "include/initializeStruct.h"
+#include "include/getAction.h"
+#include "include/printMenu.h"
 
 int main() {
   struct contact contactList[200]; 

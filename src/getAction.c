@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "contactStruct.h"
-#include "printContactList.h"
-#include "createContact.h"
+#include "include/contactStruct.h"
+#include "include/printContactList.h"
+#include "include/createContact.h"
 
 extern void getAction(int *run, struct contact contactList[200]) {
   int action;

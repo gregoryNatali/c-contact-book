@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "contactStruct.h"
+#include "include/contactStruct.h"
 
 extern void printContactList(struct contact contactList[200]) {
     printf("\n");
