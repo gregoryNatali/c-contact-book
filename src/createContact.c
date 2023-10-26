@@ -8,7 +8,7 @@ extern void createContact(struct Contact contactList[200]) {
   char newNumber[12];
 
   printf("Informe o nome do contato: ");
-  scanf("%s", newName);
+  scanf(" %[^\n]s", newName);
 
   printf("Informe o número do contato: ");
   scanf("%s", newNumber);
