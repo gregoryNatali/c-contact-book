@@ -20,5 +20,8 @@ extern void findOneContact(struct Contact contactList[200]) {
       printf("Trabalho\n");
     }
     printf("------------------------------------\n");
+    printf("Pressione enter para continuar");
+    getchar();
+    getchar();
     return;
 }

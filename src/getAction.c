@@ -2,9 +2,9 @@
 #include "include/contactStruct.h"
 #include "include/printContactList.h"
 #include "include/createContact.h"
-#include "include/findOneContact.h"
 #include "include/updateContact.h"
 #include "include/deleteContact.h"
+#include "include/selectSearch.h"
 
 extern void getAction(int *run, struct Contact contactList[200]) {
   int action;
@@ -29,7 +29,7 @@ extern void getAction(int *run, struct Contact contactList[200]) {
       break;
 
     case 5: 
-      findOneContact(contactList);
+      selectSearch(contactList);
       break;
 
     case 0:
