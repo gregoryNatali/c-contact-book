@@ -16,7 +16,7 @@ The project features a complete CRUD and saves the data in an array.
 
 ## Extra features
 
-- [ ] Search by name
+- [X] Search by name
 - [ ] Save data in csv
 - [ ] Initialize with csv data
 
