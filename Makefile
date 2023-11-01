@@ -12,6 +12,9 @@ createContact.o: src/createContact.c src/include/contactStruct.h
 findOneContact.o: src/findOneContact.c src/include/findOneContact.h
 	$(CC) -c src/findOneContact.c
 
+searchByName.o: src/searchByName.c src/include/searchByName.h
+	$(CC) -c src/searchByName.c
+
 updateContact.o: src/updateContact.c src/include/updateContact.h
 	$(CC) -c src/updateContact.c
 
